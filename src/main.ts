@@ -5,6 +5,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { MainComponent } from './main/main.component';
 
 @Component({
+
   selector: 'my-app',
   standalone: true,
   imports: [CommonModule, MainComponent],
@@ -14,7 +15,7 @@ import { MainComponent } from './main/main.component';
   `,
 })
 export class App {
-  name = 'Angular';
+  name = 'pogo';
 }
 
 bootstrapApplication(App);
